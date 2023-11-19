@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" type="text/css" href="./style/main.css">
+
+</head>
+<body onload="showMessage()">
+  <div class="container">
+    <div class="row">
+      <label for="field1">X</label>
+      <input id="field1" type="text" value="5" />
+    </div>
+    <div class="row">
+      <label for="field2">Y</label>
+      <input id="field2" type="text" value="5" />
+    </div>
+    <div class="row">
+      <label for="result">Result: </label>
+      <input id="result" type="text" />
+      <button onclick="calculateSum()">Calculate sum</button>
+    </div>
+  </div>
+
+  <!-- JS importing -->
+  <script src="./scripts/main.js"></script>  
+</body>
+</html>
